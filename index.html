@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .selected {
+            background-color: yellow;
+            text-decoration: line-through;
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h2>My Bucket List</h2>
+    <p>Check off the activities you want to do before you "kick the bucket"!</p>
+    <ul id="activity-list" type="none">
+        <li>
+            <input type="checkbox">
+            <label>Go bungee jumping</label>
+        </li>
+        <li>
+            <input type="checkbox">
+            <label>Learn to paint a picture</label>
+        </li>
+        <li>
+            <input type="checkbox">
+            <label>Write a book</label>
+        </li>
+        <li>
+            <input type="checkbox">
+            <label>Travel to every continent</label>
+        </li>
+        <li>
+            <input type="checkbox">
+            <label>Skydive from a plane</label>
+        </li>
+    </ul>
+    <form id="add-activity-form">
+        <label for="activity-input">Add an activity:</label>
+        <input type="text" id="activity-input">
+        <button type="submit">Add</button>
+    </form>
+    <script src="./app.js"></script>
+</body>
+</html>
